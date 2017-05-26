@@ -8,24 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		F54147411ED285E500F67B26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147401ED285E500F67B26 /* main.m */; };
-		F54147441ED285E500F67B26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147431ED285E500F67B26 /* AppDelegate.m */; };
-		F54147471ED285E500F67B26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147461ED285E500F67B26 /* ViewController.m */; };
-		F541474A1ED285E500F67B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54147481ED285E500F67B26 /* Main.storyboard */; };
 		F541474C1ED285E500F67B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F541474B1ED285E500F67B26 /* Assets.xcassets */; };
 		F541474F1ED285E500F67B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F541474D1ED285E500F67B26 /* LaunchScreen.storyboard */; };
+		F54147681ED28FB700F67B26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147671ED28FB700F67B26 /* AppDelegate.m */; };
+		F541476B1ED28FF000F67B26 /* AppDelegate+Guide.m in Sources */ = {isa = PBXBuildFile; fileRef = F541476A1ED28FF000F67B26 /* AppDelegate+Guide.m */; };
+		F541476E1ED2913D00F67B26 /* WTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F541476D1ED2913D00F67B26 /* WTabbarViewController.m */; };
+		F54147721ED2924C00F67B26 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147711ED2924C00F67B26 /* UIColor+Extension.m */; };
+		F54147751ED2BAB500F67B26 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147741ED2BAB500F67B26 /* HomeViewController.m */; };
+		F54147781ED2BB9A00F67B26 /* DiscussViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147771ED2BB9A00F67B26 /* DiscussViewController.m */; };
+		F541477B1ED2BBDF00F67B26 /* AccessoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F541477A1ED2BBDF00F67B26 /* AccessoriesViewController.m */; };
+		F541477E1ED2BC2400F67B26 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F541477D1ED2BC2400F67B26 /* MyViewController.m */; };
+		F54147811ED2BD7D00F67B26 /* WNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147801ED2BD7D00F67B26 /* WNavigationController.m */; };
+		F54147841ED2CE4800F67B26 /* WTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147831ED2CE4800F67B26 /* WTabBar.m */; };
+		F54147881ED2D4E200F67B26 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147871ED2D4E200F67B26 /* UIView+Extension.m */; };
+		F541478B1ED7FD8000F67B26 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F541478A1ED7FD8000F67B26 /* HomeView.m */; };
+		F541478E1ED7FD9300F67B26 /* HomePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F541478D1ED7FD9300F67B26 /* HomePresenter.m */; };
+		F54147AA1ED81FAF00F67B26 /* SGTopTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147A91ED81FAF00F67B26 /* SGTopTitleView.m */; };
+		F54147AD1ED8200000F67B26 /* UIView+SGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147AC1ED8200000F67B26 /* UIView+SGExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F541473C1ED285E500F67B26 /* Wrench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wrench.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54147401ED285E500F67B26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F54147421ED285E500F67B26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F54147431ED285E500F67B26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F54147451ED285E500F67B26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F54147461ED285E500F67B26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F54147491ED285E500F67B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F541474B1ED285E500F67B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F541474E1ED285E500F67B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F54147501ED285E500F67B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54147661ED28FB700F67B26 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F54147671ED28FB700F67B26 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F54147691ED28FF000F67B26 /* AppDelegate+Guide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Guide.h"; sourceTree = "<group>"; };
+		F541476A1ED28FF000F67B26 /* AppDelegate+Guide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Guide.m"; sourceTree = "<group>"; };
+		F541476C1ED2913D00F67B26 /* WTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTabbarViewController.h; sourceTree = "<group>"; };
+		F541476D1ED2913D00F67B26 /* WTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTabbarViewController.m; sourceTree = "<group>"; };
+		F54147701ED2924C00F67B26 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		F54147711ED2924C00F67B26 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		F54147731ED2BAB500F67B26 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F54147741ED2BAB500F67B26 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F54147761ED2BB9A00F67B26 /* DiscussViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscussViewController.h; sourceTree = "<group>"; };
+		F54147771ED2BB9A00F67B26 /* DiscussViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscussViewController.m; sourceTree = "<group>"; };
+		F54147791ED2BBDF00F67B26 /* AccessoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessoriesViewController.h; sourceTree = "<group>"; };
+		F541477A1ED2BBDF00F67B26 /* AccessoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessoriesViewController.m; sourceTree = "<group>"; };
+		F541477C1ED2BC2400F67B26 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		F541477D1ED2BC2400F67B26 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		F541477F1ED2BD7D00F67B26 /* WNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNavigationController.h; sourceTree = "<group>"; };
+		F54147801ED2BD7D00F67B26 /* WNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNavigationController.m; sourceTree = "<group>"; };
+		F54147821ED2CE4800F67B26 /* WTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTabBar.h; sourceTree = "<group>"; };
+		F54147831ED2CE4800F67B26 /* WTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTabBar.m; sourceTree = "<group>"; };
+		F54147851ED2D12A00F67B26 /* Const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		F54147861ED2D4E200F67B26 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		F54147871ED2D4E200F67B26 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		F54147891ED7FD8000F67B26 /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
+		F541478A1ED7FD8000F67B26 /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		F541478C1ED7FD9300F67B26 /* HomePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePresenter.h; sourceTree = "<group>"; };
+		F541478D1ED7FD9300F67B26 /* HomePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePresenter.m; sourceTree = "<group>"; };
+		F54147A81ED81FAF00F67B26 /* SGTopTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGTopTitleView.h; sourceTree = "<group>"; };
+		F54147A91ED81FAF00F67B26 /* SGTopTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGTopTitleView.m; sourceTree = "<group>"; };
+		F54147AB1ED8200000F67B26 /* UIView+SGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SGExtension.h"; sourceTree = "<group>"; };
+		F54147AC1ED8200000F67B26 /* UIView+SGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SGExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +96,12 @@
 		F541473E1ED285E500F67B26 /* Wrench */ = {
 			isa = PBXGroup;
 			children = (
-				F54147421ED285E500F67B26 /* AppDelegate.h */,
-				F54147431ED285E500F67B26 /* AppDelegate.m */,
-				F54147451ED285E500F67B26 /* ViewController.h */,
-				F54147461ED285E500F67B26 /* ViewController.m */,
-				F54147481ED285E500F67B26 /* Main.storyboard */,
+				F541478F1ED7FEAF00F67B26 /* Public */,
+				F541476F1ED2922600F67B26 /* Other */,
+				F54147621ED28F7D00F67B26 /* Accessories */,
+				F54147611ED28F7500F67B26 /* My */,
+				F54147601ED28F6A00F67B26 /* Discuss */,
+				F541475F1ED28F6200F67B26 /* Home */,
 				F541474B1ED285E500F67B26 /* Assets.xcassets */,
 				F541474D1ED285E500F67B26 /* LaunchScreen.storyboard */,
 				F54147501ED285E500F67B26 /* Info.plist */,
@@ -77,6 +116,119 @@
 				F54147401ED285E500F67B26 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F541475F1ED28F6200F67B26 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F54147AE1ED8294400F67B26 /* Presenter */,
+				F54147921ED7FF1300F67B26 /* Controller */,
+				F54147911ED7FF0D00F67B26 /* View */,
+				F54147901ED7FF0500F67B26 /* Model */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		F54147601ED28F6A00F67B26 /* Discuss */ = {
+			isa = PBXGroup;
+			children = (
+				F54147761ED2BB9A00F67B26 /* DiscussViewController.h */,
+				F54147771ED2BB9A00F67B26 /* DiscussViewController.m */,
+			);
+			name = Discuss;
+			sourceTree = "<group>";
+		};
+		F54147611ED28F7500F67B26 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				F541477C1ED2BC2400F67B26 /* MyViewController.h */,
+				F541477D1ED2BC2400F67B26 /* MyViewController.m */,
+			);
+			name = My;
+			sourceTree = "<group>";
+		};
+		F54147621ED28F7D00F67B26 /* Accessories */ = {
+			isa = PBXGroup;
+			children = (
+				F54147791ED2BBDF00F67B26 /* AccessoriesViewController.h */,
+				F541477A1ED2BBDF00F67B26 /* AccessoriesViewController.m */,
+			);
+			name = Accessories;
+			sourceTree = "<group>";
+		};
+		F541476F1ED2922600F67B26 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F54147701ED2924C00F67B26 /* UIColor+Extension.h */,
+				F54147711ED2924C00F67B26 /* UIColor+Extension.m */,
+				F54147851ED2D12A00F67B26 /* Const.h */,
+				F54147861ED2D4E200F67B26 /* UIView+Extension.h */,
+				F54147871ED2D4E200F67B26 /* UIView+Extension.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		F541478F1ED7FEAF00F67B26 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				F54147661ED28FB700F67B26 /* AppDelegate.h */,
+				F54147671ED28FB700F67B26 /* AppDelegate.m */,
+				F54147691ED28FF000F67B26 /* AppDelegate+Guide.h */,
+				F541476A1ED28FF000F67B26 /* AppDelegate+Guide.m */,
+				F541476C1ED2913D00F67B26 /* WTabbarViewController.h */,
+				F541476D1ED2913D00F67B26 /* WTabbarViewController.m */,
+				F541477F1ED2BD7D00F67B26 /* WNavigationController.h */,
+				F54147801ED2BD7D00F67B26 /* WNavigationController.m */,
+				F54147821ED2CE4800F67B26 /* WTabBar.h */,
+				F54147831ED2CE4800F67B26 /* WTabBar.m */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		F54147901ED7FF0500F67B26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F54147911ED7FF0D00F67B26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F54147A71ED81F8400F67B26 /* SGTopTitleView */,
+				F54147891ED7FD8000F67B26 /* HomeView.h */,
+				F541478A1ED7FD8000F67B26 /* HomeView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F54147921ED7FF1300F67B26 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F54147731ED2BAB500F67B26 /* HomeViewController.h */,
+				F54147741ED2BAB500F67B26 /* HomeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F54147A71ED81F8400F67B26 /* SGTopTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				F54147A81ED81FAF00F67B26 /* SGTopTitleView.h */,
+				F54147A91ED81FAF00F67B26 /* SGTopTitleView.m */,
+				F54147AB1ED8200000F67B26 /* UIView+SGExtension.h */,
+				F54147AC1ED8200000F67B26 /* UIView+SGExtension.m */,
+			);
+			name = SGTopTitleView;
+			sourceTree = "<group>";
+		};
+		F54147AE1ED8294400F67B26 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F541478C1ED7FD9300F67B26 /* HomePresenter.h */,
+				F541478D1ED7FD9300F67B26 /* HomePresenter.m */,
+			);
+			name = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +291,6 @@
 			files = (
 				F541474F1ED285E500F67B26 /* LaunchScreen.storyboard in Resources */,
 				F541474C1ED285E500F67B26 /* Assets.xcassets in Resources */,
-				F541474A1ED285E500F67B26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,23 +301,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54147471ED285E500F67B26 /* ViewController.m in Sources */,
-				F54147441ED285E500F67B26 /* AppDelegate.m in Sources */,
+				F541476E1ED2913D00F67B26 /* WTabbarViewController.m in Sources */,
+				F541477B1ED2BBDF00F67B26 /* AccessoriesViewController.m in Sources */,
+				F54147841ED2CE4800F67B26 /* WTabBar.m in Sources */,
+				F54147AA1ED81FAF00F67B26 /* SGTopTitleView.m in Sources */,
+				F541476B1ED28FF000F67B26 /* AppDelegate+Guide.m in Sources */,
+				F541477E1ED2BC2400F67B26 /* MyViewController.m in Sources */,
+				F541478E1ED7FD9300F67B26 /* HomePresenter.m in Sources */,
+				F54147721ED2924C00F67B26 /* UIColor+Extension.m in Sources */,
+				F54147881ED2D4E200F67B26 /* UIView+Extension.m in Sources */,
+				F541478B1ED7FD8000F67B26 /* HomeView.m in Sources */,
+				F54147AD1ED8200000F67B26 /* UIView+SGExtension.m in Sources */,
+				F54147811ED2BD7D00F67B26 /* WNavigationController.m in Sources */,
 				F54147411ED285E500F67B26 /* main.m in Sources */,
+				F54147781ED2BB9A00F67B26 /* DiscussViewController.m in Sources */,
+				F54147681ED28FB700F67B26 /* AppDelegate.m in Sources */,
+				F54147751ED2BAB500F67B26 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F54147481ED285E500F67B26 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F54147491ED285E500F67B26 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F541474D1ED285E500F67B26 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -311,6 +467,7 @@
 				F54147551ED285E500F67B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DiscussViewController.h
 //  Wrench
 //
 //  Created by dong on 2017/5/22.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DiscussViewController : UIViewController
 
 @end
-
