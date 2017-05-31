@@ -8,12 +8,14 @@
 
 #import "HomeView.h"
 #import "Const.h"
-#import "SGTopTitleView.h"
+#import "Masonry.h"
 
-@interface HomeView () <SGTopTitleViewDelegate>
+@interface HomeView ()
 
-@property (nonatomic, strong) SGTopTitleView *segmentedControl;
+@property(nonatomic, strong) UIView *segView;
 @property(nonatomic,strong) NSNumber *type;
+@property(nonatomic,strong) UIButton *recommendedBtn;
+//@property(nonatomic,strong) UIButton *recommendedBtn;
 
 @end
 
@@ -23,20 +25,30 @@
     if (self = [super init]) {
         self.backgroundColor = [UIColor whiteColor];
         
-        [self addSubview:self.segmentedControl];
+        [self addSubview:self.segView];
     }
     return self;
 }
 
--(SGTopTitleView *)segmentedControl{
-    if (!_segmentedControl) {
-        _segmentedControl = [[SGTopTitleView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 30)];
-        _segmentedControl.staticTitleArr = @[@"全部", @"未付款", @"待发货", @"待收货", @"待评价"];
-        _segmentedControl.backgroundColor = [UIColor whiteColor];
-        _segmentedControl.delegate_SG = self;
-        [_segmentedControl staticTitleLabelSelecteded:_segmentedControl.allTitleLabel[[self.type intValue]]];
+-(UIView *)segView{
+    if (_segView == nil) {
+        _segView = [[UIView alloc] initWithFrame:CGRectMake(0, 20, SCREEN_WIDTH, 30)];
+        _segView.backgroundColor = [UIColor redColor];
+        
+        self.recommendedBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [self.recommendedBtn setFont:[UIFont systemFontOfSize:14]];
+        [self.recommendedBtn setTitle:@"推荐" forState:UIControlStateNormal];
+        [self.recommendedBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        self.recommendedBtn.contentMode = UIViewContentModeCenter;
+        [_segView addSubview:self.recommendedBtn];
+        [self.recommendedBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.width.mas_equalTo((SCREEN_WIDTH-30)/3);
+            make.height.mas_equalTo(30);
+            make.left.mas_equalTo(_segView.mas_left).mas_offset(0);
+            make.top.mas_equalTo(_segView.mas_top).mas_offset(0);
+        }];
     }
-    return _segmentedControl;
+    return _segView;
 }
 
 @end

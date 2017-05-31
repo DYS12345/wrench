@@ -10,8 +10,8 @@
 
 @implementation HomePresenter
 
--(NSArray *)requestDataForHeadlines{
-    
-}
+//-(NSArray *)requestDataForHeadlines{
+//    
+//}
 
 @end

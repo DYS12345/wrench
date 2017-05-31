@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CF874FB1832DEDD760A00B6 /* Pods_Wrench.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D563683903AEDB647D5DE1 /* Pods_Wrench.framework */; };
 		F54147411ED285E500F67B26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147401ED285E500F67B26 /* main.m */; };
 		F541474C1ED285E500F67B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F541474B1ED285E500F67B26 /* Assets.xcassets */; };
 		F541474F1ED285E500F67B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F541474D1ED285E500F67B26 /* LaunchScreen.storyboard */; };
@@ -23,11 +24,13 @@
 		F54147881ED2D4E200F67B26 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147871ED2D4E200F67B26 /* UIView+Extension.m */; };
 		F541478B1ED7FD8000F67B26 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F541478A1ED7FD8000F67B26 /* HomeView.m */; };
 		F541478E1ED7FD9300F67B26 /* HomePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F541478D1ED7FD9300F67B26 /* HomePresenter.m */; };
-		F54147AA1ED81FAF00F67B26 /* SGTopTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147A91ED81FAF00F67B26 /* SGTopTitleView.m */; };
-		F54147AD1ED8200000F67B26 /* UIView+SGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147AC1ED8200000F67B26 /* UIView+SGExtension.m */; };
+		F54147B01EDEC19F00F67B26 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F54147AF1EDEC19F00F67B26 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40E9B868CEB6D20C5830968D /* Pods-Wrench.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wrench.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wrench/Pods-Wrench.debug.xcconfig"; sourceTree = "<group>"; };
+		8E64CC31B40E7B30A272FD79 /* Pods-Wrench.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wrench.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wrench/Pods-Wrench.release.xcconfig"; sourceTree = "<group>"; };
+		D6D563683903AEDB647D5DE1 /* Pods_Wrench.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wrench.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F541473C1ED285E500F67B26 /* Wrench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wrench.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54147401ED285E500F67B26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F541474B1ED285E500F67B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +63,7 @@
 		F541478A1ED7FD8000F67B26 /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
 		F541478C1ED7FD9300F67B26 /* HomePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePresenter.h; sourceTree = "<group>"; };
 		F541478D1ED7FD9300F67B26 /* HomePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePresenter.m; sourceTree = "<group>"; };
-		F54147A81ED81FAF00F67B26 /* SGTopTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGTopTitleView.h; sourceTree = "<group>"; };
-		F54147A91ED81FAF00F67B26 /* SGTopTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGTopTitleView.m; sourceTree = "<group>"; };
-		F54147AB1ED8200000F67B26 /* UIView+SGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SGExtension.h"; sourceTree = "<group>"; };
-		F54147AC1ED8200000F67B26 /* UIView+SGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SGExtension.m"; sourceTree = "<group>"; };
+		F54147AF1EDEC19F00F67B26 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,17 +71,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CF874FB1832DEDD760A00B6 /* Pods_Wrench.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AB37FB0FBCF3D30614B6394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6D563683903AEDB647D5DE1 /* Pods_Wrench.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F54147331ED285E500F67B26 = {
 			isa = PBXGroup;
 			children = (
+				F54147AF1EDEC19F00F67B26 /* Podfile */,
 				F541473E1ED285E500F67B26 /* Wrench */,
 				F541473D1ED285E500F67B26 /* Products */,
+				F9A23C8D0BC07057A0954902 /* Pods */,
+				4AB37FB0FBCF3D30614B6394 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -195,7 +207,6 @@
 		F54147911ED7FF0D00F67B26 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F54147A71ED81F8400F67B26 /* SGTopTitleView */,
 				F54147891ED7FD8000F67B26 /* HomeView.h */,
 				F541478A1ED7FD8000F67B26 /* HomeView.m */,
 			);
@@ -211,17 +222,6 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
-		F54147A71ED81F8400F67B26 /* SGTopTitleView */ = {
-			isa = PBXGroup;
-			children = (
-				F54147A81ED81FAF00F67B26 /* SGTopTitleView.h */,
-				F54147A91ED81FAF00F67B26 /* SGTopTitleView.m */,
-				F54147AB1ED8200000F67B26 /* UIView+SGExtension.h */,
-				F54147AC1ED8200000F67B26 /* UIView+SGExtension.m */,
-			);
-			name = SGTopTitleView;
-			sourceTree = "<group>";
-		};
 		F54147AE1ED8294400F67B26 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +231,15 @@
 			name = Presenter;
 			sourceTree = "<group>";
 		};
+		F9A23C8D0BC07057A0954902 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40E9B868CEB6D20C5830968D /* Pods-Wrench.debug.xcconfig */,
+				8E64CC31B40E7B30A272FD79 /* Pods-Wrench.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F54147531ED285E500F67B26 /* Build configuration list for PBXNativeTarget "Wrench" */;
 			buildPhases = (
+				99EDADDFAF0EB1CC3E5C7185 /* [CP] Check Pods Manifest.lock */,
 				F54147381ED285E500F67B26 /* Sources */,
 				F54147391ED285E500F67B26 /* Frameworks */,
 				F541473A1ED285E500F67B26 /* Resources */,
+				51C3E2FDA9887052312B0E7C /* [CP] Embed Pods Frameworks */,
+				E79BFDCEF966DDB7E41D2C9E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,12 +301,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54147B01EDEC19F00F67B26 /* Podfile in Resources */,
 				F541474F1ED285E500F67B26 /* LaunchScreen.storyboard in Resources */,
 				F541474C1ED285E500F67B26 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51C3E2FDA9887052312B0E7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wrench/Pods-Wrench-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99EDADDFAF0EB1CC3E5C7185 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E79BFDCEF966DDB7E41D2C9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wrench/Pods-Wrench-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F54147381ED285E500F67B26 /* Sources */ = {
@@ -304,14 +365,12 @@
 				F541476E1ED2913D00F67B26 /* WTabbarViewController.m in Sources */,
 				F541477B1ED2BBDF00F67B26 /* AccessoriesViewController.m in Sources */,
 				F54147841ED2CE4800F67B26 /* WTabBar.m in Sources */,
-				F54147AA1ED81FAF00F67B26 /* SGTopTitleView.m in Sources */,
 				F541476B1ED28FF000F67B26 /* AppDelegate+Guide.m in Sources */,
 				F541477E1ED2BC2400F67B26 /* MyViewController.m in Sources */,
 				F541478E1ED7FD9300F67B26 /* HomePresenter.m in Sources */,
 				F54147721ED2924C00F67B26 /* UIColor+Extension.m in Sources */,
 				F54147881ED2D4E200F67B26 /* UIView+Extension.m in Sources */,
 				F541478B1ED7FD8000F67B26 /* HomeView.m in Sources */,
-				F54147AD1ED8200000F67B26 /* UIView+SGExtension.m in Sources */,
 				F54147811ED2BD7D00F67B26 /* WNavigationController.m in Sources */,
 				F54147411ED285E500F67B26 /* main.m in Sources */,
 				F54147781ED2BB9A00F67B26 /* DiscussViewController.m in Sources */,
@@ -428,6 +487,7 @@
 		};
 		F54147541ED285E500F67B26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E9B868CEB6D20C5830968D /* Pods-Wrench.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Wrench/Info.plist;
@@ -439,6 +499,7 @@
 		};
 		F54147551ED285E500F67B26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E64CC31B40E7B30A272FD79 /* Pods-Wrench.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Wrench/Info.plist;
