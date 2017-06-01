@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3CF874FB1832DEDD760A00B6 /* Pods_Wrench.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D563683903AEDB647D5DE1 /* Pods_Wrench.framework */; };
+		48F767AF1EE0662F00DB89D0 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F767AE1EE0662F00DB89D0 /* UIBarButtonItem+Extension.m */; };
 		F51839671EE005C50096C182 /* RecommendedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51839601EE005C50096C182 /* RecommendedViewController.m */; };
 		F51839681EE005C50096C182 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51839621EE005C50096C182 /* VideoViewController.m */; };
 		F51839691EE005C50096C182 /* ImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51839641EE005C50096C182 /* ImagesViewController.m */; };
@@ -32,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		40E9B868CEB6D20C5830968D /* Pods-Wrench.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wrench.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wrench/Pods-Wrench.debug.xcconfig"; sourceTree = "<group>"; };
+		48F767AD1EE0662F00DB89D0 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		48F767AE1EE0662F00DB89D0 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		8E64CC31B40E7B30A272FD79 /* Pods-Wrench.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wrench.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wrench/Pods-Wrench.release.xcconfig"; sourceTree = "<group>"; };
 		D6D563683903AEDB647D5DE1 /* Pods_Wrench.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wrench.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F518395F1EE005C50096C182 /* RecommendedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendedViewController.h; sourceTree = "<group>"; };
@@ -86,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48F767B01EE066A400DB89D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F54147761ED2BB9A00F67B26 /* DiscussViewController.h */,
+				F54147771ED2BB9A00F67B26 /* DiscussViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		4AB37FB0FBCF3D30614B6394 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,8 +164,7 @@
 		F54147601ED28F6A00F67B26 /* Discuss */ = {
 			isa = PBXGroup;
 			children = (
-				F54147761ED2BB9A00F67B26 /* DiscussViewController.h */,
-				F54147771ED2BB9A00F67B26 /* DiscussViewController.m */,
+				48F767B01EE066A400DB89D0 /* Controller */,
 			);
 			name = Discuss;
 			sourceTree = "<group>";
@@ -184,6 +195,8 @@
 				F54147851ED2D12A00F67B26 /* Const.h */,
 				F54147861ED2D4E200F67B26 /* UIView+Extension.h */,
 				F54147871ED2D4E200F67B26 /* UIView+Extension.m */,
+				48F767AD1EE0662F00DB89D0 /* UIBarButtonItem+Extension.h */,
+				48F767AE1EE0662F00DB89D0 /* UIBarButtonItem+Extension.m */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -387,6 +400,7 @@
 				F54147721ED2924C00F67B26 /* UIColor+Extension.m in Sources */,
 				F54147881ED2D4E200F67B26 /* UIView+Extension.m in Sources */,
 				F51839671EE005C50096C182 /* RecommendedViewController.m in Sources */,
+				48F767AF1EE0662F00DB89D0 /* UIBarButtonItem+Extension.m in Sources */,
 				F54147811ED2BD7D00F67B26 /* WNavigationController.m in Sources */,
 				F54147411ED285E500F67B26 /* main.m in Sources */,
 				F54147781ED2BB9A00F67B26 /* DiscussViewController.m in Sources */,
