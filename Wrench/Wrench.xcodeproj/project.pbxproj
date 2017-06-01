@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3CF874FB1832DEDD760A00B6 /* Pods_Wrench.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D563683903AEDB647D5DE1 /* Pods_Wrench.framework */; };
+		F51839671EE005C50096C182 /* RecommendedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51839601EE005C50096C182 /* RecommendedViewController.m */; };
+		F51839681EE005C50096C182 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51839621EE005C50096C182 /* VideoViewController.m */; };
+		F51839691EE005C50096C182 /* ImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51839641EE005C50096C182 /* ImagesViewController.m */; };
+		F518396A1EE005C50096C182 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51839661EE005C50096C182 /* SearchViewController.m */; };
+		F518396E1EE00D4D0096C182 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F518396D1EE00D4D0096C182 /* SearchViewController.xib */; };
 		F54147411ED285E500F67B26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147401ED285E500F67B26 /* main.m */; };
 		F541474C1ED285E500F67B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F541474B1ED285E500F67B26 /* Assets.xcassets */; };
 		F541474F1ED285E500F67B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F541474D1ED285E500F67B26 /* LaunchScreen.storyboard */; };
@@ -22,8 +27,6 @@
 		F54147811ED2BD7D00F67B26 /* WNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147801ED2BD7D00F67B26 /* WNavigationController.m */; };
 		F54147841ED2CE4800F67B26 /* WTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147831ED2CE4800F67B26 /* WTabBar.m */; };
 		F54147881ED2D4E200F67B26 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147871ED2D4E200F67B26 /* UIView+Extension.m */; };
-		F541478B1ED7FD8000F67B26 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F541478A1ED7FD8000F67B26 /* HomeView.m */; };
-		F541478E1ED7FD9300F67B26 /* HomePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F541478D1ED7FD9300F67B26 /* HomePresenter.m */; };
 		F54147B01EDEC19F00F67B26 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F54147AF1EDEC19F00F67B26 /* Podfile */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +34,15 @@
 		40E9B868CEB6D20C5830968D /* Pods-Wrench.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wrench.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wrench/Pods-Wrench.debug.xcconfig"; sourceTree = "<group>"; };
 		8E64CC31B40E7B30A272FD79 /* Pods-Wrench.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wrench.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wrench/Pods-Wrench.release.xcconfig"; sourceTree = "<group>"; };
 		D6D563683903AEDB647D5DE1 /* Pods_Wrench.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wrench.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F518395F1EE005C50096C182 /* RecommendedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendedViewController.h; sourceTree = "<group>"; };
+		F51839601EE005C50096C182 /* RecommendedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendedViewController.m; sourceTree = "<group>"; };
+		F51839611EE005C50096C182 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		F51839621EE005C50096C182 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		F51839631EE005C50096C182 /* ImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesViewController.h; sourceTree = "<group>"; };
+		F51839641EE005C50096C182 /* ImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesViewController.m; sourceTree = "<group>"; };
+		F51839651EE005C50096C182 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		F51839661EE005C50096C182 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		F518396D1EE00D4D0096C182 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		F541473C1ED285E500F67B26 /* Wrench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wrench.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54147401ED285E500F67B26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F541474B1ED285E500F67B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,10 +71,6 @@
 		F54147851ED2D12A00F67B26 /* Const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
 		F54147861ED2D4E200F67B26 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		F54147871ED2D4E200F67B26 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		F54147891ED7FD8000F67B26 /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
-		F541478A1ED7FD8000F67B26 /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
-		F541478C1ED7FD9300F67B26 /* HomePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePresenter.h; sourceTree = "<group>"; };
-		F541478D1ED7FD9300F67B26 /* HomePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePresenter.m; sourceTree = "<group>"; };
 		F54147AF1EDEC19F00F67B26 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
@@ -207,8 +215,6 @@
 		F54147911ED7FF0D00F67B26 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F54147891ED7FD8000F67B26 /* HomeView.h */,
-				F541478A1ED7FD8000F67B26 /* HomeView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -216,6 +222,15 @@
 		F54147921ED7FF1300F67B26 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F518395F1EE005C50096C182 /* RecommendedViewController.h */,
+				F51839601EE005C50096C182 /* RecommendedViewController.m */,
+				F51839611EE005C50096C182 /* VideoViewController.h */,
+				F51839621EE005C50096C182 /* VideoViewController.m */,
+				F51839631EE005C50096C182 /* ImagesViewController.h */,
+				F51839641EE005C50096C182 /* ImagesViewController.m */,
+				F51839651EE005C50096C182 /* SearchViewController.h */,
+				F51839661EE005C50096C182 /* SearchViewController.m */,
+				F518396D1EE00D4D0096C182 /* SearchViewController.xib */,
 				F54147731ED2BAB500F67B26 /* HomeViewController.h */,
 				F54147741ED2BAB500F67B26 /* HomeViewController.m */,
 			);
@@ -225,8 +240,6 @@
 		F54147AE1ED8294400F67B26 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				F541478C1ED7FD9300F67B26 /* HomePresenter.h */,
-				F541478D1ED7FD9300F67B26 /* HomePresenter.m */,
 			);
 			name = Presenter;
 			sourceTree = "<group>";
@@ -302,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F54147B01EDEC19F00F67B26 /* Podfile in Resources */,
+				F518396E1EE00D4D0096C182 /* SearchViewController.xib in Resources */,
 				F541474F1ED285E500F67B26 /* LaunchScreen.storyboard in Resources */,
 				F541474C1ED285E500F67B26 /* Assets.xcassets in Resources */,
 			);
@@ -363,14 +377,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F541476E1ED2913D00F67B26 /* WTabbarViewController.m in Sources */,
+				F51839691EE005C50096C182 /* ImagesViewController.m in Sources */,
 				F541477B1ED2BBDF00F67B26 /* AccessoriesViewController.m in Sources */,
 				F54147841ED2CE4800F67B26 /* WTabBar.m in Sources */,
 				F541476B1ED28FF000F67B26 /* AppDelegate+Guide.m in Sources */,
+				F51839681EE005C50096C182 /* VideoViewController.m in Sources */,
+				F518396A1EE005C50096C182 /* SearchViewController.m in Sources */,
 				F541477E1ED2BC2400F67B26 /* MyViewController.m in Sources */,
-				F541478E1ED7FD9300F67B26 /* HomePresenter.m in Sources */,
 				F54147721ED2924C00F67B26 /* UIColor+Extension.m in Sources */,
 				F54147881ED2D4E200F67B26 /* UIView+Extension.m in Sources */,
-				F541478B1ED7FD8000F67B26 /* HomeView.m in Sources */,
+				F51839671EE005C50096C182 /* RecommendedViewController.m in Sources */,
 				F54147811ED2BD7D00F67B26 /* WNavigationController.m in Sources */,
 				F54147411ED285E500F67B26 /* main.m in Sources */,
 				F54147781ED2BB9A00F67B26 /* DiscussViewController.m in Sources */,

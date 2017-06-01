@@ -27,3 +27,13 @@
 #define arrow_width 40
 #define arrow_animation_time 0.7
 #define resetView_time 0.3
+
+
+//首页分类的枚举
+typedef enum {
+    TopicTypeReco = 1,
+    TopicTypePicture = 10,
+    TopicTypeVideo = 29,
+    TopicTypeSearch = 31
+} TopicType;
+

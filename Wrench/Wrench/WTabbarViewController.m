@@ -50,13 +50,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // 添加子控制器
-    [self setupChildVc:[[HomeViewController alloc] init] title:@"首页" image:@"home" selectedImage:@"home_selected"];
+    [self setupChildVc:[[HomeViewController alloc] init] title:@"首页" image:@"tabBar_Home" selectedImage:@"homered"];
     
-    [self setupChildVc:[[DiscussViewController alloc] init] title:@"问答" image:@"media" selectedImage:@"media_selected"];
+    [self setupChildVc:[[DiscussViewController alloc] init] title:@"我的技师" image:@"tabBar_Discover" selectedImage:@"findred"];
     
-    [self setupChildVc:[[AccessoriesViewController alloc] init] title:@"配件" image:@"found" selectedImage:@"found_selected"];
+    [self setupChildVc:[[AccessoriesViewController alloc] init] title:@"我的库房" image:@"tabBar_Mall" selectedImage:@"shopred"];
     
-    [self setupChildVc:[[MyViewController alloc] init] title:@"我的" image:@"me" selectedImage:@"me_selected"];
+    [self setupChildVc:[[MyViewController alloc] init] title:@"我的" image:@"tabBar_MyCenter" selectedImage:@"minered"];
     
     // 更换tabBar
     [self setValue:[[WTabBar alloc] init] forKeyPath:@"tabBar"];

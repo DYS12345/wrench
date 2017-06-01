@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "AppDelegate+Guide.h"
+#import "IQKeyboardManager.h"
 
 @interface AppDelegate ()
 
@@ -19,9 +20,18 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [self windowShow];
+    [self setKeyBoard];
     return YES;
 }
 
+-(void)setKeyBoard{
+    //  键盘事件
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    manager.enable = YES;
+    manager.shouldResignOnTouchOutside = YES;
+    manager.shouldToolbarUsesTextFieldTintColor = YES;
+    manager.enableAutoToolbar = NO;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
