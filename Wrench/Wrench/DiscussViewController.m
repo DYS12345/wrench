@@ -10,12 +10,15 @@
 #import "UIBarButtonItem+Extension.h"
 #import "SearchViewController.h"
 #import "UIView+Extension.h"
+#import "TechnicianTableViewCell.h"
 
-@interface DiscussViewController ()
+@interface DiscussViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property(nonatomic, strong) UIView *sortView;
 @property(nonatomic, strong) UIButton *selectedButton;
 @property(nonatomic, strong) UIView *maskView;
+@property(nonatomic, strong) UIView *fieldView;
+@property(nonatomic, strong) UITableView *discussTableView;
 
 @end
 
@@ -29,6 +32,21 @@
     self.navigationItem.rightBarButtonItem = searchItem;
     
     [self.view addSubview:self.sortView];
+    [self.view addSubview:self.discussTableView];
+}
+
+-(UITableView *)discussTableView{
+    if (!_discussTableView) {
+        _discussTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, self.sortView.y+self.sortView.height+20, SCREEN_WIDTH, SCREEN_HEIGHT-_discussTableView.y-49) style:UITableViewStylePlain];
+        _discussTableView.delegate = self;
+        _discussTableView.dataSource = self;
+        [_discussTableView registerClass:[TechnicianTableViewCell class] forCellReuseIdentifier:@"TechnicianTableViewCell"];
+        _discussTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+        _discussTableView.showsVerticalScrollIndicator = NO;
+        _discussTableView.backgroundColor = [UIColor colorWithHexString:@"#F1F1F1"];
+        _discussTableView.rowHeight = 80;
+    }
+    return _discussTableView;
 }
 
 -(UIView *)sortView{
@@ -67,6 +85,15 @@
     return _sortView;
 }
 
+-(UIView *)fieldView{
+    if (!_fieldView) {
+        _fieldView = [[UIView alloc] initWithFrame:CGRectMake(0, self.sortView.y+self.sortView.height, SCREEN_WIDTH, 0)];
+        _fieldView.backgroundColor = [UIColor whiteColor];
+        [self.view addSubview:_fieldView];
+    }
+    return _fieldView;
+}
+
 -(void)titleClick:(UIButton*)button{
     // 修改按钮状态
     self.selectedButton.enabled = YES;
@@ -75,8 +102,14 @@
     
     if (button.tag  == 1) {
         self.maskView.hidden = NO;
+        [UIView animateWithDuration:0.25 animations:^{
+            self.fieldView.height = 300;
+        }];
     } else {
         self.maskView.hidden = YES;
+        [UIView animateWithDuration:0.25 animations:^{
+            self.fieldView.height = 0;
+        }];
     }
 }
 
@@ -92,6 +125,19 @@
 -(void)searchClick{
     SearchViewController *search = [[SearchViewController alloc] init];
     [self presentViewController:search animated:YES completion:nil];
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 3;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    TechnicianTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TechnicianTableViewCell"];
+    return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
 }
 
 @end
