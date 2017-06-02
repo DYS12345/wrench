@@ -11,6 +11,7 @@
 #import "SearchViewController.h"
 #import "UIView+Extension.h"
 #import "TechnicianTableViewCell.h"
+#import "TechnicianDetailsViewController.h"
 
 @interface DiscussViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -26,7 +27,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor colorWithHexString:@"#F1F1F1"];
     
     UIBarButtonItem *searchItem = [UIBarButtonItem itemWithImage:@"Nav_Search" highImage:nil title:nil target:self action:@selector(searchClick)];
     self.navigationItem.rightBarButtonItem = searchItem;
@@ -37,7 +38,7 @@
 
 -(UITableView *)discussTableView{
     if (!_discussTableView) {
-        _discussTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, self.sortView.y+self.sortView.height+20, SCREEN_WIDTH, SCREEN_HEIGHT-_discussTableView.y-49) style:UITableViewStylePlain];
+        _discussTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, self.sortView.y+self.sortView.height, SCREEN_WIDTH, SCREEN_HEIGHT-_discussTableView.y-49) style:UITableViewStylePlain];
         _discussTableView.delegate = self;
         _discussTableView.dataSource = self;
         [_discussTableView registerClass:[TechnicianTableViewCell class] forCellReuseIdentifier:@"TechnicianTableViewCell"];
@@ -133,11 +134,13 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     TechnicianTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TechnicianTableViewCell"];
+    cell.nav = self.navigationController;
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+    TechnicianDetailsViewController *vc = [[TechnicianDetailsViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

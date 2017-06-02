@@ -10,4 +10,6 @@
 
 @interface TechnicianTableViewCell : UITableViewCell
 
+@property(nonatomic, strong) UINavigationController *nav;
+
 @end

@@ -15,6 +15,8 @@
 		F518396A1EE005C50096C182 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51839661EE005C50096C182 /* SearchViewController.m */; };
 		F518396E1EE00D4D0096C182 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F518396D1EE00D4D0096C182 /* SearchViewController.xib */; };
 		F51839721EE1082B0096C182 /* TechnicianTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F51839711EE1082B0096C182 /* TechnicianTableViewCell.m */; };
+		F51839751EE166BC0096C182 /* TechnicianChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51839741EE166BC0096C182 /* TechnicianChatViewController.m */; };
+		F51839781EE1683B0096C182 /* TechnicianDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51839771EE1683B0096C182 /* TechnicianDetailsViewController.m */; };
 		F54147411ED285E500F67B26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F54147401ED285E500F67B26 /* main.m */; };
 		F541474C1ED285E500F67B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F541474B1ED285E500F67B26 /* Assets.xcassets */; };
 		F541474F1ED285E500F67B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F541474D1ED285E500F67B26 /* LaunchScreen.storyboard */; };
@@ -49,6 +51,10 @@
 		F518396D1EE00D4D0096C182 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		F51839701EE1082B0096C182 /* TechnicianTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TechnicianTableViewCell.h; sourceTree = "<group>"; };
 		F51839711EE1082B0096C182 /* TechnicianTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TechnicianTableViewCell.m; sourceTree = "<group>"; };
+		F51839731EE166BC0096C182 /* TechnicianChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TechnicianChatViewController.h; sourceTree = "<group>"; };
+		F51839741EE166BC0096C182 /* TechnicianChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TechnicianChatViewController.m; sourceTree = "<group>"; };
+		F51839761EE1683B0096C182 /* TechnicianDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TechnicianDetailsViewController.h; sourceTree = "<group>"; };
+		F51839771EE1683B0096C182 /* TechnicianDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TechnicianDetailsViewController.m; sourceTree = "<group>"; };
 		F541473C1ED285E500F67B26 /* Wrench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wrench.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54147401ED285E500F67B26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F541474B1ED285E500F67B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,6 +103,10 @@
 			children = (
 				F54147761ED2BB9A00F67B26 /* DiscussViewController.h */,
 				F54147771ED2BB9A00F67B26 /* DiscussViewController.m */,
+				F51839731EE166BC0096C182 /* TechnicianChatViewController.h */,
+				F51839741EE166BC0096C182 /* TechnicianChatViewController.m */,
+				F51839761EE1683B0096C182 /* TechnicianDetailsViewController.h */,
+				F51839771EE1683B0096C182 /* TechnicianDetailsViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -415,11 +425,13 @@
 				F51839671EE005C50096C182 /* RecommendedViewController.m in Sources */,
 				48F767AF1EE0662F00DB89D0 /* UIBarButtonItem+Extension.m in Sources */,
 				F54147811ED2BD7D00F67B26 /* WNavigationController.m in Sources */,
+				F51839781EE1683B0096C182 /* TechnicianDetailsViewController.m in Sources */,
 				F54147411ED285E500F67B26 /* main.m in Sources */,
 				F54147781ED2BB9A00F67B26 /* DiscussViewController.m in Sources */,
 				F51839721EE1082B0096C182 /* TechnicianTableViewCell.m in Sources */,
 				F54147681ED28FB700F67B26 /* AppDelegate.m in Sources */,
 				F54147751ED2BAB500F67B26 /* HomeViewController.m in Sources */,
+				F51839751EE166BC0096C182 /* TechnicianChatViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
